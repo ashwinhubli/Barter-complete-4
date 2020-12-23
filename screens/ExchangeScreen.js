@@ -68,7 +68,7 @@ export default class ExchangeScreen extends Component{
                 placeholder={"Why do you need the Item?"}
                 onChangeText ={(text)=>{
                     this.setState({
-                        des:text
+                        description:text
                     })
                 }}
                 value ={this.state.description}
